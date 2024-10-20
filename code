@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Dropdown dan Listbox</title>
+</head>
+<body>
+    <h2>Form Dropdown Menu dan Listbox</h2>
+    <!-- Dropdown Menu -->
+    <label for="dropdown">Pilih Menu Yang Akan Di Pesan:</label>
+    <select id="dropdown">
+        <option value="Mie Goreng">Mie Goreng</option>
+        <option value="Mie Rebus">Mie Rebus</option>
+        <option value="Kopi">Kopi</option>
+        <option value="Tea Jus">Tea Jus</option>
+        <option value="Gorengan">Gorengan</option>
+    </select>
+    <br><br>
+    <!-- Listbox dengan multiple selection -->
+    <label for="listbox">Pilih Menu Yang Kamu Suka:</label>
+    <select id="listbox" multiple size="2">
+        <option value="Spaghetti Bolognes">Spaghetti Bolognes</option>
+        <option value="Chicken Mozarela">Chicken Mozarela</option>
+        <option value="Mie Romantic">Mie Romantic</option>
+        <option value="Rice Fried Kongsue">Rice Fried Kongsue</option>
+        <option value="SPY Chicken Wings">SPY Chicken Wings</option>
+    </select>
+</body>
+</html>
