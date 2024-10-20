@@ -1,0 +1,89 @@
+# Lab3Web
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Dropdown dan Listbox</title>
+</head>
+<body>
+    <h2>Form Dropdown Menu dan Listbox</h2>
+    <!-- Dropdown Menu -->
+    <label for="dropdown">Pilih Menu Yang Akan Di Pesan:</label>
+    <select id="dropdown">
+        <option value="Mie Goreng">Mie Goreng</option>
+        <option value="Mie Rebus">Mie Rebus</option>
+        <option value="Kopi">Kopi</option>
+        <option value="Tea Jus">Tea Jus</option>
+        <option value="Gorengan">Gorengan</option>
+    </select>
+    <br><br>
+    <!-- Listbox dengan multiple selection -->
+    <label for="listbox">Pilih Menu Yang Kamu Suka:</label>
+    <select id="listbox" multiple size="2">
+        <option value="Spaghetti Bolognes">Spaghetti Bolognes</option>
+        <option value="Chicken Mozarela">Chicken Mozarela</option>
+        <option value="Mie Romantic">Mie Romantic</option>
+        <option value="Rice Fried Kongsue">Rice Fried Kongsue</option>
+        <option value="SPY Chicken Wings">SPY Chicken Wings</option>
+    </select>
+</body>
+</html>
+# penjelasan
+1. Deklarasi Doctype
+html
+<!DOCTYPE html>
+Menunjukkan bahwa dokumen ini adalah sebuah HTML5. Ini membantu browser untuk merender halaman dengan benar.
+2. Elemen <html>
+html
+<html lang="id">
+Menandakan awal dari dokumen HTML dan menentukan bahasa yang digunakan, dalam hal ini adalah bahasa Indonesia (lang="id").
+3. Elemen <head>
+html
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Dropdown dan Listbox</title>
+</head>
+<meta charset="UTF-8">: Menetapkan karakter encoding dokumen menjadi UTF-8, yang mendukung berbagai karakter dari banyak bahasa.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Mengatur tampilan responsif untuk perangkat seluler dengan membuat lebar viewport sama dengan lebar perangkat.
+<title>Form Dropdown dan Listbox</title>: Menentukan judul halaman yang akan ditampilkan di tab browser.
+4. Elemen <body>
+html
+<body>
+    <h2>Form Dropdown Menu dan Listbox</h2>
+Menandakan awal dari konten yang akan ditampilkan kepada pengguna. Di sini terdapat judul halaman dalam ukuran besar (<h2>).
+5. Dropdown Menu
+html
+<label for="dropdown">Pilih Menu Yang Akan Di Pesan:</label>
+<select id="dropdown">
+    <option value="Mie Goreng">Mie Goreng</option>
+    <option value="Mie Rebus">Mie Rebus</option>
+    <option value="Kopi">Kopi</option>
+    <option value="Tea Jus">Tea Jus</option>
+    <option value="Gorengan">Gorengan</option>
+</select>
+<br><br>
+<label>: Menyediakan deskripsi untuk dropdown. Menggunakan atribut for untuk mengaitkan label dengan dropdown.
+<select id="dropdown">: Membuat dropdown menu. Atribut id digunakan untuk mengidentifikasi elemen.
+<option>: Menyediakan pilihan dalam dropdown. Masing-masing memiliki atribut value yang akan dikirimkan saat formulir di-submit.
+6. Listbox dengan Multiple Selection
+html
+<label for="listbox">Pilih Menu Yang Kamu Suka:</label>
+<select id="listbox" multiple size="2">
+    <option value="Spaghetti Bolognes">Spaghetti Bolognes</option>
+    <option value="Chicken Mozarela">Chicken Mozarela</option>
+    <option value="Mie Romantic">Mie Romantic</option>
+    <option value="Rice Fried Kongsue">Rice Fried Kongsue</option>
+    <option value="SPY Chicken Wings">SPY Chicken Wings</option>
+</select>
+<label>: Sama seperti sebelumnya, memberi deskripsi untuk listbox.
+<select id="listbox" multiple size="2">: Membuat listbox yang memungkinkan pengguna untuk memilih lebih dari satu opsi. Atribut multiple memungkinkan pilihan ganda, dan size="2" menentukan tinggi listbox (menampilkan dua opsi sekaligus).
+<option>: Menyediakan pilihan yang tersedia dalam listbox, sama seperti dalam dropdown.
+7. Akhir Elemen
+html
+</body>
+</html>
+Menandakan akhir dari konten dalam elemen <body> dan akhir dari dokumen HTML secara keseluruhan.
+Ringkasan
+Dokumen ini membuat sebuah halaman HTML sederhana yang berisi form dengan dua komponen: dropdown menu untuk memilih satu item, dan listbox yang memungkinkan pengguna untuk memilih beberapa item. Ini bisa digunakan, misalnya, dalam konteks pemesanan makanan atau minuman.
